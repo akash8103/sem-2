@@ -6,10 +6,6 @@ from telegram._telegramobject import TelegramObject
 
 class Dice(TelegramObject):
     """
-    This object represents an animated emoji with a random value for currently supported base
-    emoji. (The singular form of "dice" is "die". However, PTB mimics the Telegram API, which uses
-    the term "dice".)
-
     Objects of this class are comparable in terms of equality. Two objects of this class are
     considered equal, if their :attr:`value` and :attr:`emoji` are equal.
 
