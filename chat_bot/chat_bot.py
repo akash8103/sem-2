@@ -1,4 +1,3 @@
-"""This module contains an object that represents a Telegram Dice."""
 from typing import Any, ClassVar, List
 
 from telegram import constants
